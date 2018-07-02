@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyMapApplication</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="SEQ_QUES">
+        <item>WHAT IS THE NAME OF YOUR PET DOG?</item>
+        <item>WHICH IS THE COUNTRY YOU WOULD LIKE TO VISIT THE MOST?</item>
+        <item>WHAT IS THE NAME OF YOUR FAVOURITE TEACHER IN SCHOOL?</item>
+        <item>WHICH IS YOUR FAVOURITE CARTOON?</item>
+        <item>WHICH IS YOUR FAVORITE MOVIE CHANNEL></item>
+        <item>WHOM DO YOU LOVE THE MOST IN YOUR FAMILY OTHER THAN YOUR PARENTS?</item>
+    </string-array>
+
+    <string name="Open">MyMapApplication</string>
+    <string name="Close">MyMapApplication</string>
+
+
+</resources>

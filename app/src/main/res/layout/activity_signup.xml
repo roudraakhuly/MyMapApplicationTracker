@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mymapapplication.MainActivity"
+    android:background="@drawable/reg">
+
+
+
+       <EditText
+           android:id="@+id/et1"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_centerHorizontal="true"
+
+           android:layout_marginTop="21dp"
+           android:hint="NAME"
+           android:textColor="#ffffff"
+           android:inputType="textPersonName"
+           />
+
+       <EditText
+           android:id="@+id/et2"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_alignStart="@+id/et1"
+           android:layout_below="@+id/et1"
+           android:inputType="textEmailAddress"
+
+           android:textColor="#ffffff"
+           android:ems="10"
+           android:hint="USER ID"
+
+           />
+
+       <EditText
+           android:id="@+id/et3"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_alignStart="@+id/et2"
+           android:layout_below="@+id/et2"
+
+           android:textColor="#ffffff"
+           android:ems="10"
+           android:hint="MOBILE NUMBER"
+           android:inputType="phone"
+           />
+
+
+       <EditText
+           android:id="@+id/et4"
+           android:layout_width="300dp"
+           android:layout_height="40dp"
+           android:layout_alignStart="@+id/et3"
+           android:layout_below="@+id/et3"
+           android:layout_marginTop="12dp"
+           android:hint="PASSWORD"
+
+           android:textColor="#ffffff"
+           android:inputType="textPassword" />
+
+       <TextView
+           android:id="@+id/tw"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/et4"
+           android:layout_centerHorizontal="true"
+           android:textSize="15dp" />
+
+       <Spinner
+           android:id="@+id/sp1"
+           android:layout_width="300dp"
+           android:layout_height="30dp"
+           android:layout_alignStart="@+id/et4"
+           android:layout_below="@+id/textView4"
+           android:layout_marginTop="14dp"
+           android:background="@android:drawable/button_onoff_indicator_on"
+           android:entries="@array/SEQ_QUES" />
+
+       <EditText
+           android:id="@+id/et5"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_alignStart="@+id/sp1"
+           android:layout_below="@+id/sp1"
+           android:layout_marginTop="27dp"
+           android:ems="10"
+           android:hint="ANSWER"
+           android:inputType="textPersonName"
+           android:textColor="#ffffff"
+           android:textSize="17dp" />
+
+       <Button
+           android:id="@+id/button2"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="41dp"
+           android:background="#19fad8"
+           android:backgroundTint="@android:color/holo_purple"
+           android:onClick="b7_click"
+           android:text="REGISTER"
+           android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+           android:textColor="#f10e0e"
+           android:textSize="18dp" />
+
+       <TextView
+           android:id="@+id/textView4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignStart="@+id/sp1"
+           android:layout_below="@+id/tw"
+           android:layout_marginTop="22dp"
+           android:text="Sequrity Question!!!"
+           android:textColor="#000000"
+           android:textSize="20dp" />
+
+
+</RelativeLayout>
+
+
+
+

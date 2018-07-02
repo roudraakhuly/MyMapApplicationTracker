@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/d1">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mymapapplication.MainActivity"
+    android:background="@drawable/kyle">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Project"
+        android:textColor="#ab0212"
+        android:textColorHighlight="#000fff"
+        android:textSize="65sp"
+        android:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignTop="@+id/b2"
+        android:layout_marginRight="12dp"
+        android:background="#af041b"
+        android:onClick="b1_Click"
+        android:text="SIGN IN"
+        android:textColor="#a0b1ba"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="143dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="12dp"
+        android:background="#af041b"
+        android:onClick="b2_click"
+        android:text="SIGN UP"
+        android:textColor="#a0b1ba"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:freezesText="?android:attr/windowOverscan"
+        android:text="Application"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#840404"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="TRACKER"
+        android:textColor="#a30202"
+        android:textSize="70dp" />
+</RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
+
+
+
+

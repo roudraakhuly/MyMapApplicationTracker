@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mymapapplication.signin"
+    android:background="@drawable/log">
+
+
+    <EditText
+        android:id="@+id/etu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:hint=" ENTER YOUR USER ID"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/etp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etu"
+        android:layout_below="@+id/etu"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ENTER YOUR PASSWORD"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"/>
+
+
+    <TextView
+        android:id="@+id/tfg"
+        android:layout_width="233dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/etp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="15dp"
+        android:onClick="b4_click"
+        android:text="Forgot Password?"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorLink="@android:color/holo_blue_bright"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tfg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:onClick="b11_click"
+        android:text="login" />
+
+
+</RelativeLayout>
+

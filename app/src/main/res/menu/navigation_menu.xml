@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/signup"
+        android:title="Sign up"
+        android:icon="@drawable/ic_person_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/signin"
+        android:title="Sign In"
+        android:icon="@drawable/ic_person_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/track"
+        android:title="Track"
+        android:icon="@drawable/ic_place_black_24dp">
+    </item>
+
+
+</menu>
